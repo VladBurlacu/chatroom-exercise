@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<label for="message">Type your message here:</label>
+<input type="text" id="message" name="message">
+<button type="button" id="global">Send to all</button>
+<button type="button" id="self">Send to self</button>
+<div id="target"></div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="clientJS.js"></script>
+</body>
+</html>
