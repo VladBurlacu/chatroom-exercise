@@ -10,3 +10,10 @@ document.getElementById(`global`).addEventListener(`click`, () => {
     socket.emit('sendToAll', (msg));
     console.log(msg);
 })
+
+document.getElementById(`self`).addEventListener(`click`, () => {
+    let selfMsg = document.getElementById(`message`).value;
+    socket.emit('sendToMe', (selfMsg));
+    console.log(selfMsg);
+})
+

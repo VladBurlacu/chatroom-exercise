@@ -7,11 +7,17 @@
 </head>
 <body>
 
-<label for="message">Type your message here:</label>
-<input type="text" id="message" name="message">
-<button type="button" id="global">Send to all</button>
-<button type="button" id="self">Send to self</button>
-<div id="target"></div>
+<div id="container">
+    <div id="chat-box">
+        <div id="target"></div>
+    </div>
+    <div id="input-area">
+        <label for="message">Type your message here:</label>
+        <input type="text" id="message" name="message">
+        <button type="button" id="global">Send to all</button>
+        <button type="button" id="self">Send to self</button>
+    </div>
+</div>
 
 <script src="/socket.io/socket.io.js"></script>
 <script src="clientJS.js"></script>
