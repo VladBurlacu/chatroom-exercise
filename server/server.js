@@ -26,7 +26,5 @@ io.on('connection', (socket) => {
     });
 });
 
-document.getElementById(`global`).addEventListener(`click`, () => {
-    socket.emit('sendToAll', ('message'));
-})
+
 
