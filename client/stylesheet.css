@@ -1,0 +1,20 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+
+}
+#target {
+    border: solid 1px black;
+    width: 500px;
+    height: 500px;
+}
+
+#input-area {
+    padding-top: 2%;
+}
+
